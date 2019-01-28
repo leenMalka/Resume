@@ -1,0 +1,50 @@
+.row {
+  margin-top: 1.5rem;
+}
+
+.col {
+  padding: 10px;
+}
+.icon{
+  position: relative;
+  padding-left: 20px;
+}
+.icon:before{
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    left: 0px;
+    top: -1px;
+    color:rgb(16, 99, 201);
+}
+.experience-icon.icon:before{
+    content: '\f0b1';
+}
+.mail-icon.icon:before{
+    content: '\f0e0';
+}
+.phone-icon.icon:before{
+    content: '\f095';
+}
+.education-icon:before{
+  content: '\f19d';
+}
+.tools-icon:before{
+  content: '\f552';
+}  
+.languages-icon:before{
+  content:'\f1ab';
+  top:1px;
+}
+.add-icon:before{
+  content:'\f0fe';
+}
+.soical-icon:before{
+  content:'\f0a4';
+}
+.under-line{
+  border-bottom: 1px solid rgb(16, 99, 201);
+}
+.header-color{
+  color:rgb(16, 99, 201);
+}
