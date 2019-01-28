@@ -48,3 +48,18 @@
 .header-color{
   color:rgb(16, 99, 201);
 }
+footer{
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+  background:rgb(16, 99, 201);
+}
+footer a{
+    color:white;
+}
+footer a:hover{
+    color:grey;
+    text-decoration: none;
+}
