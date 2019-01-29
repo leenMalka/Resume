@@ -13,7 +13,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 <body>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 <main>
   <div class="container">
     <div class="row">
@@ -32,7 +31,7 @@
         <p class="phone-icon icon">0527644556</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row  under-line">
       <div class="col-12">
         <p class="mb-0">
           A senior developer with extensive knowledge and technological understanding,Experienced in developing complex information systems that require system vision and creativity in problem solving and working under stress conditions.</p>
@@ -45,75 +44,108 @@
 
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <p class="experience-icon icon under-line header-color">Experience</p>
-      </div>
-      <div class="col-12">
-        <p class="font-weight-bold">2017-present software devloping fullstack/.Net</p>
-        <ul>
-          <li>
-            <label class="font-weight-bold">Senior software devloping</label>
-            <span>Clal Insurance</span>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingExperience">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#experience" aria-expanded="true" aria-controls="experience">
+          <span class="experience-icon icon header-color">Experience</span>
+        </button>
+          </h5>
+        </div>
+
+        <div id="experience" class="collapse show" aria-labelledby="headingExperience" data-parent="#accordion">
+          <div class="card-body">
+            <p class="font-weight-bold">2017-present software devloping fullstack/.Net</p>
             <ul>
-              <li> Develping an innovative system for producing credit insurance policies, working with angular 6, redux -Focus on UX and interfacing with external information companies.</li>
-              <li class="mt-2">Develping a policy management site for customers Clal Credit Insurance - a system with high information traffic, processes and complex procedures, with emphasis on fast performance and high level of security.</li>
+              <li>
+                <label class="font-weight-bold">Senior software devloping</label>
+                <span>Clal Insurance</span>
+                <ul>
+                  <li> Develping an innovative system for producing credit insurance policies, working with angular 6, redux -Focus on UX and interfacing with external information companies.</li>
+                  <li class="mt-2">Develping a policy management site for customers Clal Credit Insurance - a system with high information traffic, processes and complex procedures, with emphasis on fast performance and high level of security.</li>
+                </ul>
+              </li>
+              <li class="mt-3">
+                <label class="font-weight-bold">Software devloping</label>
+                <span>HaravDotnet</span>
+                <ul>
+                  <li> Develping site for Microsoft - LOG ANALYTICS DOC Mainly work with AZURE Create a very complex server side with high generic capabilities.</li>
+                  <li class="mt-2">Developing an innovative system for submitting property tax requests ONLINE Working with angularjs + typescript, interfacing and saving data in the cloud Emphasis on UX (<a href="https://www.clicksoft.co.il">https://www.clicksoft.co.il</a>)</li>
+                </ul>
+              </li>
             </ul>
-          </li>
-          <li class="mt-3">
-            <label class="font-weight-bold">Software devloping</label>
-            <span>HaravDotnet</span>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingEducation">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#education" aria-expanded="false" aria-controls="education">
+          <span class="education-icon icon under-line header-color">Education</span>
+        </button>
+          </h5>
+        </div>
+        <div id="education" class="collapse" aria-labelledby="headingEducation" data-parent="#accordion">
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li>2015-2017 Software Engineer, Mahat - The Haredi Center for professional training.</li>
+              <li class="mt-2">2011-2015 High school education + 11 matriculation units in Computer Science - Beit Yaakov TLV</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTools">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#tools" aria-expanded="false" aria-controls="tools">
+            <span class="tools-icon icon under-line header-color">Languages and development tools</span>
+        </button>
+          </h5>
+        </div>
+        <div id="tools" class="collapse" aria-labelledby="headingTools" data-parent="#accordion">
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li><label class="font-weight-bold">Client side: </label><span> jquery ,angularjs, angular5, js, ts, css3, html5, bootsrap3/4,angular 1.6(typescript)</span></li>
+              <li><label class="font-weight-bold">Server side: </label><span> mvc,azure , c#, sql, entityFramwork, wcf, web api</span></li>
+              <li><label class="font-weight-bold">Work environment and programs: </label><span> visual studio, tfs, vs code, sql server,nodejs, office</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingLanguages">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#languages" aria-expanded="false" aria-controls="languages">
+             <span class="languages-icon icon under-line header-color">Languages</span>
+        </button>
+          </h5>
+        </div>
+        <div id="languages" class="collapse" aria-labelledby="headingLanguages" data-parent="#accordion">
+          <div class="card-body">
+            <lebel class="font-weight-bold">English:</lebel><span>Very high level,</span>
+            <lebel class="font-weight-bold">Hebrew:</lebel><span> mother tongue</span>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingAdd">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#add" aria-expanded="false" aria-controls="add">
+             <span class="add-icon icon under-line header-color">In addition to experience as a developer</span>
+        </button>
+          </h5>
+        </div>
+        <div id="add" class="collapse" aria-labelledby="headingAdd" data-parent="#accordion">
+          <div class="card-body">
+            <p class="font-weight-bold">2018-present Teaching ANGULAR and Instructor of a final project</p>
             <ul>
-              <li> Develping site for Microsoft - LOG ANALYTICS DOC Mainly work with AZURE Create a very complex server side with high generic capabilities.</li>
-              <li class="mt-2">Developing an innovative system for submitting property tax requests ONLINE Working with angularjs + typescript, interfacing and saving data in the cloud Emphasis on UX (<a href="https://www.clicksoft.co.il">https://www.clicksoft.co.il</a>)</li>
+              <li> Guiding the final project - the Haredi Center for professional training Guidance and accompaniment to a final project including assistance in writing the project proposal Writing the code and accompanying it until submission - The position
+                includes deep knowledge in a variety of subjects, as well as a high level of explanation and guidance</li>
+              <li class="mt-2">Teching Angular 2+ and help to students with h.w</li>
             </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <p class="education-icon icon under-line header-color">Education</p>
-      </div>
-      <div class="col-12">
-        <ul class="list-unstyled">
-          <li>2015-2017 Software Engineer, Mahat - The Haredi Center for professional training.</li>
-          <li class="mt-2">2011-2015 High school education + 11 matriculation units in Computer Science - Beit Yaakov TLV</li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <p class="tools-icon icon under-line header-color">Languages and development tools</p>
-      </div>
-      <div class="col-12">
-        <ul class="list-unstyled">
-          <li><label class="font-weight-bold">Client side: </label><span> jquery ,angularjs, angular5, js, ts, css3, html5, bootsrap3/4,angular 1.6(typescript)</span></li>
-          <li><label class="font-weight-bold">Server side: </label><span> mvc,azure , c#, sql, entityFramwork, wcf, web api</span></li>
-          <li><label class="font-weight-bold">Work environment and programs: </label><span> visual studio, tfs, vs code, sql server,nodejs, office</span></li>
-        </ul>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <p class="languages-icon icon under-line header-color">Languages</p>
-      </div>
-      <div class="col-12">
-        <lebel class="font-weight-bold">English:</lebel><span>Very high level,</span>
-        <lebel class="font-weight-bold">Hebrew:</lebel><span> mother tongue</span>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <p class="add-icon icon under-line header-color">In addition to experience as a developer</p>
-      </div>
-      <div class="col-12">
-        <p class="font-weight-bold">2018-present Teaching ANGULAR and Instructor of a final project</p>
-        <ul>
-          <li> Guiding the final project - the Haredi Center for professional training Guidance and accompaniment to a final project including assistance in writing the project proposal Writing the code and accompanying it until submission - The position includes
-            deep knowledge in a variety of subjects, as well as a high level of explanation and guidance</li>
-          <li class="mt-2">Teching Angular 2+ and help to students with h.w</li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
