@@ -12,6 +12,16 @@ body {
   padding: 10px;
 }
 
+.avatar {
+  width: 160px;
+  height: 160px;
+  background: url(https://media.licdn.com/dms/image/C4D03AQFyDxsTd0PXow/profile-displayphoto-shrink_200_200/0?e=1554336000&v=beta&t=6IJnXIZPKFxjAamYaog5gAgaVhzAN0lTEZ7X3WMxrRM);
+  border-radius: 50%;
+  background-size: 100% 100%;
+}
+
+.avatar:hover {}
+
 #accordion {
   margin-top: 1.5rem;
 }
@@ -27,7 +37,19 @@ body {
   font-weight: 900;
   left: 0px;
   top: -1px;
-  color: rgb(16, 99, 201);
+  color: #095751;
+}
+
+.icon-right:before {
+  left: 102%;
+  top: 1px;
+}
+
+@media (max-width: 768px) {
+  .icon-right:before {
+    left: 0;
+    top: 1px;
+  }
 }
 
 .experience-icon.icon:before {
@@ -40,6 +62,10 @@ body {
 
 .phone-icon.icon:before {
   content: '\f095';
+}
+
+.location-icon:before {
+  content: '\f3c5';
 }
 
 .education-icon:before {
@@ -64,11 +90,11 @@ body {
 }
 
 .under-line {
-  border-bottom: 1px solid rgb(16, 99, 201);
+  border-bottom: 1px solid #095751;
 }
 
 .header-color {
-  color: rgb(16, 99, 201);
+  color: #095751;
 }
 
 main {
@@ -80,7 +106,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 60px;
-  background: rgb(16, 99, 201);
+  background: #095751;
 }
 
 footer a {
