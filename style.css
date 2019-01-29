@@ -12,9 +12,13 @@ body {
   padding: 10px;
 }
 
+#accordion {
+  margin-top: 1.5rem;
+}
+
 .icon {
   position: relative;
-  padding-left: 20px;
+  padding-left: 25px;
 }
 
 .icon:before {
